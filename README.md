@@ -12,8 +12,7 @@ FacebookAgent.channels=FileChannel
 FacebookAgent.sources.Facebook.type=com.leadgen.FacebookSource
 FacebookAgent.sources.Facebook.appSecret=<YOUR_APP_SECRET>
 FacebookAgent.sources.Facebook.accessToken=<YOUR_ACCES_TOKEN>
-FacebookAgent.sources.Facebook.hoursFromNow=12
-//sinceDate= now - hoursFromNow
+FacebookAgent.sources.Facebook.hoursFromNow=12 //sinceDate = now - hoursFromNow
 FacebookAgent.sources.Facebook.searchKeywords=marketing
 FacebookAgent.sources.Facebook.stopWords="indian,andaman,nicobar"
 FacebookAgent.sources.Facebook.channels=FileChannel
