@@ -1,8 +1,8 @@
 # facebook-agent
-# A facebook client for Flume to extract public group posts. 
+# A facebook client for Flume to extract public group posts periodically.
 # 1. The client uses the searchKeyword to search groups. Group posts will be extracted from open groups
 # 2. You can skip a group by configuring stopWords. If the group's name containes a stopWord it will be skipped
-# 3. The extracted data will be in JSON format. 
+# 3. The extracted data saved in JSON. 
 
 #Config file example:
 FacebookAgent.sources=Facebook
@@ -13,6 +13,7 @@ FacebookAgent.sources.Facebook.type=com.leadgen.FacebookSource
 FacebookAgent.sources.Facebook.appSecret=<YOUR_APP_SECRET>
 FacebookAgent.sources.Facebook.accessToken=<YOUR_ACCES_TOKEN>
 FacebookAgent.sources.Facebook.hoursFromNow=12
+//sinceDate= now - hoursFromNow
 FacebookAgent.sources.Facebook.searchKeywords=marketing
 FacebookAgent.sources.Facebook.stopWords="indian,andaman,nicobar"
 FacebookAgent.sources.Facebook.channels=FileChannel
