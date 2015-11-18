@@ -4,7 +4,7 @@
 # 2. You can skip a group by configuring stopWords. If the group's name containes a stopWord it will be skipped
 # 3. The extracted data will be in JSON format. 
 
-#Example config file:
+#Config file example:
 FacebookAgent.sources=Facebook
 FacebookAgent.sinks=sink1
 FacebookAgent.channels=FileChannel
